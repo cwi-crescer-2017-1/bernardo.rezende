@@ -15,7 +15,7 @@ public class Saint {
     
     // camelCase
     public boolean getArmaduraVestida() {
-        return this.armaduraVestida;
+        return !this.armaduraVestida;
     }
     
     public Genero getGenero() {
